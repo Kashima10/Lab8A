@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f0f0; 
+    background: ;
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+}
+
+h1 {
+    color: #0056b3; /* Heading color */
+    text-align: center; /* Centered text */
+}
+
+p {
+    line-height: 1.6; 
+    margin-bottom: 1em; 
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+.background-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('lab8A/Background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
