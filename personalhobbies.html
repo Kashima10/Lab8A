@@ -5,73 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Background Image</title>
+    <style>
+        body {
+            background-image: url('Background copy.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            z-index: 1000; /* Ensures it stays above other content */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #4CAF50; /* Hover color */
+        }
+        section {
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px;
+        }
+        iframe {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-<body background="Background copy.jpg">
-    <header> 
+<body>
+    <header>
         <nav>
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#page2">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contactpg">Contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-<br>
-<br>
-<br>
-<br>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contactpg.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div id="div1"> 
-        <ul><h1>Outdoor Activites</h1></ul>
-        <li> Roller Blade</li>
-        <li> Biking Riding</li>
-        <li> Hiking/ Long Walks</li>
-        <li> Outdoor Workouts</li>
-        <li> Gardening</li>
-        <li> Golfing</li>
-        
+        <h1>Outdoor Activities</h1>
+        <ul>
+            <li>Roller Blade</li>
+            <li>Biking Riding</li>
+            <li>Hiking/ Long Walks</li>
+            <li>Outdoor Workouts</li>
+            <li>Gardening</li>
+            <li>Golfing</li>
+        </ul>
     </div>
-    <div id="div2"> 
-        <ul><h1>Couple Activites</h1></ul>
-        <li>Dance Class</li>
-        <li> Cooking Class</li>
-        <li>Wine Tasting </li>
-        <li> Wine Making</li>
-        <li> Bartending Class</li>
-        <li> Candle Making</li>
-    </div>
-    <div id="div3">  <ul><h1>Intellectual Activites</h1></ul>
-        <li> Learn a New Language</li>
-        <li>Read a Book</li>
-        <li>Do Cross Words</li>
-        <li> Play Video Game</li>
-        <li> Playing Chess</li>
-        <li> Tutor a Peer</li>
-        <li> Studying </li>
 
+    <div id="div2"> 
+        <h1>Couple Activities</h1>
+        <ul>
+            <li>Dance Class</li>
+            <li>Cooking Class</li>
+            <li>Wine Tasting</li>
+            <li>Wine Making</li>
+            <li>Bartending Class</li>
+            <li>Candle Making</li>
+        </ul>
     </div>
-    <br>
-    <br>
+
+    <div id="div3"> 
+        <h1>Intellectual Activities</h1>
+        <ul>
+            <li>Learn a New Language</li>
+            <li>Read a Book</li>
+            <li>Do Crosswords</li>
+            <li>Play Video Games</li>
+            <li>Playing Chess</li>
+            <li>Tutor a Peer</li>
+            <li>Studying</li>
+        </ul>
+    </div>
+
     <section id="section1">
-        <h3>Music for Workouts</h3>
-        <iframe width="475" height="315"
-        src="https://www.youtube.com/embed/RSV2ihf0aFk">
-        </iframe>
-        <p>This is my go to song when I want to start a work out and I need to feel pumped!! </p>
+        <h3>Feel Good Music</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NXSmawBg_6Q?si=7O6O7es6OzgrwcIL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen></iframe>
+        <p>This is some text related to the Feel Good Music section.</p>
     </section>
     
     <section id="section2">
         <h3>Music for Workouts</h3>
-        <iframe width="475" height="315" src="https://www.youtube.com/embed/rJwEphsNVH8?si=oWhrFOMNrpvqsL4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-
-        </iframe>
-        <p>This is my go to song when I want to start a work out and I need to feel pumped!! </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rJwEphsNVH8?si=oWhrFOMNrpvqsL4e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen></iframe>
+        <p>This is some text related to the Music for Workouts section.</p>
     </section>
 
-
-   
-    
 </body>
 </html>

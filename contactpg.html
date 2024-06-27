@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <textarea name="message" rows="4" cols="50" placeholder="Sumbit Your Favourite Hobby"
+    <link rel="stylesheet" href="style.css">
     
+</head>
+<body background="pages2.jpg">
+
+    <h2>Submit Your Favourite Hobby</h2>
+
+    <form>
+        <textarea name="message" rows="4" cols="50" placeholder="Enter Your Favourite Hobby"></textarea>
+        <br>
+        <button type="button" onclick="alert('Button clicked')">Submit Hobby</button>
+    </form>
+
+    <h2>Select Your Hobby</h2>
+
+    <form id="dropdown">
+        <label for="hobbies">Choose a Hobby:</label>
+        <select id="hobbies" name="hobbies">
+            <option value="reading">Reading</option>
+            <option value="gardening">Gardening</option>
+            <option value="painting">Painting</option>
+            <option value="cooking">Cooking</option>
+            <option value="traveling">Traveling</option>
+            <option value="photography">Photography</option>
+            <option value="sports">Sports</option>
+            <option value="music">Music</option>
+        </select>
+        <br>
+        <button type="button" onclick="submitHobby()">Submit Hobby</button>
+    </form>
+
+    <script>
+        function submitHobby() {
+            var hobby = document.getElementById("hobbies").value;
+            alert("Your selected hobby is: " + hobby);
+            // You can add further processing here, such as sending the selected hobby to a server.
+        }
+    </script>
+
 </body>
 </html>
