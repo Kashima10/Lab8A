@@ -87,14 +87,18 @@ a:hover {
     background-color: #f6f2f2;
 }
 #section1{
-    width: 33.33%;
+    width: 40%;
+    float: left;
+    border: 12px solid rgb(64, 79, 83);
+    padding: 20px;
+    background-color: #e8e0e8;
+}
+#section2{
+    width: 40%;
+    float: right;
     border: 12px solid rgb(64, 79, 83);
     padding: 20px;
     background-color: #e8e0e8;
 }
 
-.bordered-div {
-    border: 2px solid black; /* 2px width, solid style, black color */
-    padding: 20px; /* Optional: Adds padding inside the border */
-    margin: 20px; /* Optional: Adds margin outside the border */
-}
+
