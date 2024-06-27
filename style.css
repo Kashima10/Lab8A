@@ -1,18 +1,23 @@
 body {
     background-color: #f0f0f0; 
     background: ;
-    font-family: Arial, sans-serif; /* Font family */
-    color: #333; /* Text color */
+    font-family: Arial, sans-serif; 
+    color: #333; 
 }
 
 h1 {
-    color: #0056b3; /* Heading color */
-    text-align: center; /* Centered text */
+    color: #000000; 
+    text-align: center;
+    font-family:fantasy
 }
-
 p {
     line-height: 1.6; 
     margin-bottom: 1em; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    
+    
 }
 
 a {
@@ -30,4 +35,66 @@ a:hover {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+}
+#div1{
+    background-color: #d8b8d9;
+   border: #b2fff5;
+   border-start-end-radius: 30%;
+   border: 9px solid rgb(170, 235, 251);
+    width: 30.33%;
+    float: right;
+    font-family: cursive;
+
+}
+#div2{
+    background-color: #9a68fe;
+    width: 30.33%;
+    float: left;
+    border-start-end-radius: 30%;
+    border: 9px solid rgb(170, 235, 251);
+    font-family: cursive;
+}
+#div3{
+    background-color: #c996f8;
+    width: 31.33%;
+    margin: 0 auto;
+    border-start-end-radius: 30%;
+    border: 9px solid rgb(170, 235, 251);
+    font-family: cursive;
+
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 30;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    display: block;
+    color: rgb(237, 190, 238);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background-color: #f6f2f2;
+}
+#section1{
+    width: 33.33%;
+    border: 12px solid rgb(64, 79, 83);
+    padding: 20px;
+    background-color: #e8e0e8;
+}
+
+.bordered-div {
+    border: 2px solid black; /* 2px width, solid style, black color */
+    padding: 20px; /* Optional: Adds padding inside the border */
+    margin: 20px; /* Optional: Adds margin outside the border */
 }
